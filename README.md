@@ -1,15 +1,21 @@
-# awesome scroll tools
+# 📜 awesome scroll tools
 
-In this repository you are going to find all the awesome awarded open source contributions from our community that will allow us to read the scrolls!
+In this repository you are going to find all the awesome awarded open source contributions from our community that will allow us to read the scrolls! 📚✨
 
 They are divided in three categories: _Segmentation_, _Ink Detection (3D, Scroll segment-based, Fragment-based)_, and _Others_.
 
-Every category is subdivided in classes: _Highlighted_ (for popular contributions), _Tools_, _Materials_, _Reports_, and _Visualization_.
+Every category is subdivided in classes: 🌟 _Highlighted_ (for popular contributions), ⚙️ _Tools_, 📦 _Materials_, 📝 _Reports_, and 📊 _Visualization_.
+
+Some highlighted contributions are added to this repository as submodules.
+
+We are trying to keep this repository updated as much as we can, but research moves _fast_! 🏃💨
+
+For state-of-the-art contributions please join our [Discord channel](https://discord.com/invite/V4fJhvtaQn) 💬⏰
 
 ## Segmentation
 
-### Highlighted
-#### Semi-automatic tools
+### 🌟 Highlighted
+#### 🛠️ Semi-automatic tools
 - [Volume Cartographer](https://github.com/educelab/volume-cartographer) is a tool to manually annotate segments of scrolls, supported by Optical Flow Segmentatin. It was first built by EduceLab, but the [current fork](https://github.com/spacegaier/volume-cartographer) used by the community is that by Philip Allgaier.
     - [Optical Flow Segmentation](https://github.com/schillij95/volume-cartographer-papyrus/) by Julian Schilliger
         - [Speed improvement](https://github.com/schillij95/volume-cartographer-papyrus) by Julian Schilliger
@@ -22,11 +28,13 @@ Every category is subdivided in classes: _Highlighted_ (for popular contribution
     - Multiple improvements by Chuck
     - [Multiresolution chunked volumes](https://discord.com/channels/1079907749569237093/1193446455504011316) by Chuck
 
-#### Automatic tools (work in progress)
+#### ⚙️ Automatic tools (work in progress)
 - [Thaumato Anakalyptor](https://github.com/schillij95/ThaumatoAnakalyptor/tree/main) is an automatic tool that combines classical methods such as threshold gradient operator based edge detectors and Deep Learning based instance segmentation of point clouds to detect, merge and render segments. It was built by Julian Schilliger (part of Grand Prize winning submission)
     - [Flattening](https://github.com/schillij95/ThaumatoAnakalyptor/commit/5a1ccd2a1f0e7e7a78452fcea6ce3e2cf2f6b5dc) and [rendering](https://github.com/schillij95/ThaumatoAnakalyptor/commit/bcd382a0ef59b2a8566ec62a474479ea9d1bb8c2) improvements by Giorgio Angelotti
 
-### Tools
+### 🛠️ Tools
+- [Volumetric Vesuvius Labelling](https://github.com/JamesDarby345/Volumetric_Vesuvius_Labelling) by James Darby. Provide custom tooling the Napari 3d viewer that will help manually annotate volumetric masks of the scrolls to train ML models for 3D segmentation.
+
 - [Autosegmentation preprocessing pipeline](https://github.com/giorgioangel/vesuvius_autoseg_preprocess) (work in progress) collection of scripts to preprocess volumes for autosegmentation. By Giorgio Angelotti
 
 - [Segment2Voxel](https://github.com/giorgioangel/vesuvius-segment2voxel) by Giorgio Angelotti. Tool to create 1-voxel thick volumetric segment labels starting from mesh objs.
@@ -59,31 +67,33 @@ Every category is subdivided in classes: _Highlighted_ (for popular contribution
 - [vesuvius-image](https://github.com/caethan/vesuvius_image) by Brett Olsen. Tool for storing and viewing data, including efficient Zarr loading of stack of tif images later included in Khartes.
 
 - [Quick Segment](https://github.com/educelab/quick-segment) Created by EduceLab for annotating a large air gap in Scroll 1, and then projecting from that gap to either side to create two large segments, colloquially referred to as the “Monster Segment”. Hasn’t been used for more segmentation, since it was the only large air gap we could find.
-### Materials
+### 📦 Materials
 
-#### Highlighted
+#### 🌟 Highlighted
 - [Sheet instance annotation of cubes for Deep Learning models](https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/seg-volumetric-labels/finished_cubes/) (work in progress)
     - [More cubes to annotate, help us!](https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/seg-volumetric-labels/cubes/)
 
 - [Denoised and contrast enhanced volumes](https://discord.com/channels/1079907749569237093/1249316301273436320), download [here](https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumes_denoised_ce/), same path pattern for other scrolls.
 
-#### Segments
+#### 📜 Segments
 - [Scroll 2 segments](https://discord.com/channels/1079907749569237093/1079907750265499772/1245553260362858577) by Sean Johnson
 
 - [New segments](https://discord.com/channels/1079907749569237093/1234969334535946303) by Sean Johnson
 
 - [Large segments](http://dl.ash2txt.org/bruniss-uploads/) by Sean Johnson
-#### Volumetric Labels
+#### 🏷️ Volumetric Labels
 - [Instance segmentation labels](https://github.com/JamesDarby345/Vesuvius_3D_datasets) by James Darby
 
-### Reports
+### 📝 Reports
+- [Physical equalization of scrolls' brightness](https://github.com/giorgioangel/vesuvius_autoseg_preprocess/blob/main/equalize/Scroll_Equalizer.pdf) by Giorgio Angelotti
+
 - [Volumetric segmentation architecture investigation](https://docs.google.com/document/d/1SX83Dhz5sJXHhSRbADcNxUmuH53BypLRny01rbizK8I/edit?usp=sharing) by James Darby
 
 - [Instance segmentation experiments](https://discord.com/channels/1079907749569237093/1235042673899995176/1235042673899995176) by James Darby, Ryan Reszetnik, Liamo Pennimpede, Lucas Nelson
 
 - [Probabilistic view on the offset for surface volume creation](https://discord.com/channels/1079907749569237093/1177617480366170162) by Giorgio Angelotti
 
-### Visualization
+### 📊 Visualization
 - [vesuvius-gui](https://github.com/jrudolph/vesuvius-gui) by Johannes Rudolph
 
 - [Browser-based scroll viewer](https://discord.com/channels/1079907749569237093/1246129199304151052/1246129199304151052) by Yao Hsiao
@@ -97,35 +107,34 @@ Every category is subdivided in classes: _Highlighted_ (for popular contribution
 - [Volume Viewer](https://github.com/tomhsiao1260/vc-whiteboard/tree/demo-3) Used by the segmentation team primarily to see which segments they have worked on already. Hosted [here](http://37.19.207.113:5174/). By Yao Hsiao
     - [Vesuvius Challenge Whiteboard](https://github.com/tomhsiao1260/vc-whiteboard/tree/dev) by Yao Hsiao and Dalufishe
 
-- [Scroll Viewer](https://github.com/lukeboi/scroll-viewer) by Luke Farritor ($2,500 April, 2023). A lightweight, extensible tool for viewing volumetric data, which runs in the browser, and is very fast.
-    - Improvements by Luke Farritor
+- [Scroll Viewer](https://github.com/lukeboi/scroll-viewer) by Luke Farritor. A lightweight, extensible tool for viewing volumetric data, which runs in the browser, and is very fast.
 
 ## Ink Detection
 
-### 3D Ink Detection
-#### Highlighted
+### 🏆 3D Ink Detection
+#### 🌟 Highlighted
 - [3D (volumetric) Ink detection model](https://github.com/ryanchesler/3d-ink-detection) by Ryan Chesler. Ink detection model that works on full scroll data in 3D, without segmentation nor flattening.
 
-#### Tools
+#### ⚙️ Tools
 - [Large Scroll Model](https://github.com/ryanchesler/LSM/blob/main/README.md) is a 3D Unet pretrained on scroll data, by Ryan Chesler
 
 - [UV predictions visualizer](https://gist.github.com/giorgioangel/6ae26b126f364dda751a10be0b90b36d) by Giorgio Angelotti. Script to quickly visualize the ink predictions output by Ryan Chesler's 3D model as a scatter pkot on segments. Needs the predictions Zarr for the full scroll.
 
 - [Volumetric ink detection attempt](https://discord.com/channels/1079907749569237093/1204133327083147264) by Jorge Villaescusa
 
-#### Materials
+#### 📦 Materials
 - [3D Ink labels](https://discord.com/channels/1079907749569237093/1079907750265499772/1223357870762889308) by Sean Johnsonn
 
 - [3D Ink predictions](https://dl.ash2txt.org/community-uploads/ryan/) by Ryan Chesler. Predictions of 3D Ink models on full scrolls in Zarr format.
 
-### Scroll segments-based Ink Detection
+### 🖋️ Scroll segments-based Ink Detection
 
 
-#### Highlighted
+#### 🌟 Highlighted
 
 - [Grand Prize Winner Ink Detection model](https://github.com/younader/Vesuvius-Grandprize-Winner) by Youssef Nader, Luke Farritor and Julian Schilliger
 
-#### Tools
+#### ⚙️ Tools
 
 - [Segment-to-segment label mapping](https://github.com/OliverDaubney/s2slabmap) by Oliver Daubney
 
@@ -152,7 +161,7 @@ Every category is subdivided in classes: _Highlighted_ (for popular contribution
 
 - [Scroll pretraining](https://github.com/younader/VesuviusPretraining) by Youssef Nader. Youssef’s original idea for pretraining on the scrolls and finetuning on the fragments, which led him to winning the First Letters Prize.
 
-#### Materials
+#### 📦 Materials
 - [Ink Labels](https://discord.com/channels/1079907749569237093/1223849912467460116). Nicola Bodill produced more accurate labels for ink detection based on the prediction of the Grand Prize winner model
 
 - [Scroll 4 predictions](https://dl.ash2txt.org/community-uploads/luke/youssef_uploads/scroll_4/). Youssef Nader produced some predictions on Scroll 4 from his Grand prize winner model. No sure trace of ink yet
@@ -161,20 +170,20 @@ Every category is subdivided in classes: _Highlighted_ (for popular contribution
 
 - [Crackle labels on Scroll 1](https://dl.ash2txt.org/community-uploads/bruniss/) by Sean Johnson
 
-#### Reports
+#### 📝 Reports
 
 - [First Ink on scroll 1](https://caseyhandmer.wordpress.com/2023/08/05/reading-ancient-scrolls/) by Casey Handmer
 
-#### Visualization
+#### 📊 Visualization
 - [Segment viewer](https://github.com/tomhsiao1260/segment-viewer). Used by the segmentation team primarily to see which segments they have worked on already. Hosted [here](http://37.19.207.113:5173/?mode=segment&segment=20230702185753) By Yao Hsiao and Dalufishe
     - Improvements by Yao Hsiao
 
 
 - [Segment browser](https://github.com/jrudolph/vesuvius-browser) is a web-based tool to browse layers and open source ink detection results of all released segments. By Johannes Rudolph
 
-### Fragment-based Ink Detection
+### 📜 Fragment-based Ink Detection
 
-#### Highlighted 
+#### 🌟 Highlighted 
 - [Kaggle competition on Fragments](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/overview)
     - [1st place](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/417496) by Ryan Chesler
     - [2nd place](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/discussion/417255) by RTX2309
@@ -191,7 +200,7 @@ Every category is subdivided in classes: _Highlighted_ (for popular contribution
 
 - [Ink ID](https://github.com/educelab/ink-id) by Stephen Parsons
 
-#### Reports
+#### 📝 Reports
 
 - [Kaggle Challenge top ink detection model analysis](https://github.com/ainatersol/Vesuvius-InkDetection/blob/main/additional_findings.md) by Ryan Chesler
 
@@ -200,11 +209,14 @@ Every category is subdivided in classes: _Highlighted_ (for popular contribution
 
 
 ## Others
-### Tools
+### ⚙️ Tools
 - [Efficient Data Downloader](https://github.com/JamesDarby345/VesuviusDataDownload) Scripts to efficiently download data with rclone, by James Darby
 
-### Materials
+### 📦 Materials
 - [CT scanning campfire scrolls](https://dl.ash2txt.org/community-uploads/waynewaynehello/) Ahron Wayne replicated the carbonization process of a papyrus scroll and scanned it with his personal CT scanner
 
-### Reports
+### 📝 Reports
 - [Hard-Hearted Scrolls](https://uknowledge.uky.edu/cs_etds/138/), PhD Dissertation by Stephen Parsons
+
+# Contributions
+If you want to contribute and add any resource please do a PR! 😊🚀
