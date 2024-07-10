@@ -30,9 +30,12 @@ For state-of-the-art contributions please join our [Discord channel](https://dis
 
 #### ⚙️ Automatic tools (work in progress)
 - [Thaumato Anakalyptor](https://github.com/schillij95/ThaumatoAnakalyptor/tree/main) is an automatic tool that combines classical methods such as threshold gradient operator based edge detectors and Deep Learning based instance segmentation of point clouds to detect, merge and render segments. It was built by Julian Schilliger (part of Grand Prize winning submission)
-    - [Flattening](https://github.com/schillij95/ThaumatoAnakalyptor/commit/5a1ccd2a1f0e7e7a78452fcea6ce3e2cf2f6b5dc) and [rendering](https://github.com/schillij95/ThaumatoAnakalyptor/commit/bcd382a0ef59b2a8566ec62a474479ea9d1bb8c2) improvements by Giorgio Angelotti
 
 ### 🛠️ Tools
+- [Fast Segment Rendering](https://github.com/schillij95/ThaumatoAnakalyptor/blob/main/ThaumatoAnakalyptor/sheet_to_mesh.py) by Julian Schilliger. Fast rendering of segments with GPU acceleration. Capable of saving the surface volume to multiple file formats.
+
+    - [CPU rendering](https://github.com/schillij95/ThaumatoAnakalyptor/commit/bcd382a0ef59b2a8566ec62a474479ea9d1bb8c2) by Julian Schilliger and Giorgio Angelotti
+
 - [Volumetric Vesuvius Labelling](https://github.com/JamesDarby345/Volumetric_Vesuvius_Labelling) by James Darby. Provide custom tooling the Napari 3d viewer that will help manually annotate volumetric masks of the scrolls to train ML models for 3D segmentation.
 
 - [Autosegmentation preprocessing pipeline](https://github.com/giorgioangel/vesuvius_autoseg_preprocess) (work in progress) collection of scripts to preprocess volumes for autosegmentation. By Giorgio Angelotti
@@ -44,7 +47,8 @@ For state-of-the-art contributions please join our [Discord channel](https://dis
 
 - [Scroll compression and masking](https://github.com/OliverDaubney/vesuvius_basic_compression) by Olivier Daubney. Script to compress and mask scroll data, greatly reducing storage requirements!
 
-- [Mesh merging prototype](https://gist.github.com/giorgioangel/b4cc56a5514335a2947adb058af2982b) by Giorgio Angelotti. Attempt to merge existing mesh of segments by projecting them in 2D and retriangulating in the plane.
+- [Mesh merging](https://github.com/schillij95/ThaumatoAnakalyptor/blob/main/ThaumatoAnakalyptor/mesh_merger.py) by Julian Schilliger. Merges multiple overlapping meshes into one continuous mesh. Flattening not included.
+    - [Mesh merging prototype](https://gist.github.com/giorgioangel/b4cc56a5514335a2947adb058af2982b) by Giorgio Angelotti. Different attempt to merge existing mesh of segments by projecting them in 2D and retriangulating in the plane.
 
 - [Meshing and chunking](https://discord.com/channels/1079907749569237093/1232307086952501313) by Santiago Pelufo
 
@@ -52,7 +56,9 @@ For state-of-the-art contributions please join our [Discord channel](https://dis
 
 - [Superpixels and cells](https://discord.com/channels/1079907749569237093/1221902373887279226) by Santiago Pelufo
 
-- [Slim-Flatboi](https://github.com/giorgioangel/slim-flatboi) implementation of the SLIM algorithm with minimization of isometric distortion to flatten scroll segments. Later included in ThaumatoAnakalyptor. By Giorgio Angelotti.
+- [Segment Flattening](https://github.com/schillij95/ThaumatoAnakalyptor/blob/main/ThaumatoAnakalyptor/slim_uv.py) by Julian Schilliger and Giorgio Angelotti. Improved flattening of scroll segments.
+
+    - [Slim-Flatboi](https://github.com/giorgioangel/slim-flatboi) previous implementation of the SLIM algorithm with minimization of isometric distortion to flatten scroll segments. Later included in ThaumatoAnakalyptor. By Giorgio Angelotti.
 
 - [Single Sheet Segmentation attempt](https://discord.com/channels/1079907749569237093/1179216516697296906/1179216516697296906) by Brett Olsen
 
@@ -85,6 +91,8 @@ For state-of-the-art contributions please join our [Discord channel](https://dis
 - [Instance segmentation labels](https://github.com/JamesDarby345/Vesuvius_3D_datasets) by James Darby
 
 ### 📝 Reports
+- [Technical report on ThaumatoAnakalyptor](https://github.com/schillij95/ThaumatoAnakalyptor/blob/main/documentation/ThaumatoAnakalyptor___Technical_Report_and_Roadmap.pdf) by Julian Schilliger
+
 - [Physical equalization of scrolls' brightness](https://github.com/giorgioangel/vesuvius_autoseg_preprocess/blob/main/equalize/Scroll_Equalizer.pdf) by Giorgio Angelotti
 
 - [Volumetric segmentation architecture investigation](https://docs.google.com/document/d/1SX83Dhz5sJXHhSRbADcNxUmuH53BypLRny01rbizK8I/edit?usp=sharing) by James Darby
@@ -97,6 +105,8 @@ For state-of-the-art contributions please join our [Discord channel](https://dis
 - [vesuvius-gui](https://github.com/jrudolph/vesuvius-gui) by Johannes Rudolph
 
 - [Browser-based scroll viewer](https://discord.com/channels/1079907749569237093/1246129199304151052/1246129199304151052) by Yao Hsiao
+
+- [Crackle Viewer](https://github.com/schillij95/Crackle-Viewer) is a tool to browse and annotate surface volumes of rendered segments, by Julian Schilliger
 
 - [Point cloud extraction method comparer](https://github.com/giorgioangel/vesuvius-compare/) by Giorgio Angelotti. Tool to compare different point cloud extraction methods.
 
@@ -155,7 +165,6 @@ For state-of-the-art contributions please join our [Discord channel](https://dis
     - [Ink detection model, 2nd place but more accurate](https://github.com/younader/Vesuvius-First-Letters) by Youssef Nader
 
 - [Crackle Viewer](https://github.com/schillij95/Crackle-Viewer) is a tool to browse and annotate surface volumes of rendered segments, by Julian Schilliger
-    - Improvements by Julian Schilliger
 
 - [Fourth placed Kaggle model finetuning](https://github.com/lukeboi/scroll-fourth-second/blob/master/README.md) on scroll data by Luke Farritor
 
@@ -171,6 +180,8 @@ For state-of-the-art contributions please join our [Discord channel](https://dis
 - [Crackle labels on Scroll 1](https://dl.ash2txt.org/community-uploads/bruniss/) by Sean Johnson
 
 #### 📝 Reports
+
+- [Grand Prize Presentation](https://www.youtube.com/watch?v=F5ak1pRaqVo&ab_channel=VesuviusChallenge) by Youssef Nader and Julian Schilliger
 
 - [First Ink on scroll 1](https://caseyhandmer.wordpress.com/2023/08/05/reading-ancient-scrolls/) by Casey Handmer
 
