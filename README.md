@@ -146,6 +146,8 @@ For state-of-the-art contributions please join our [Discord channel](https://dis
 
 #### ⚙️ Tools
 
+- [Vesuvius GP+](https://github.com/jaredlandau/Vesuvius-Grandprize-Winner-Plus) by Jared Landau. Updated version of the Grand Prize Ink Detection script with extra features.
+  
 - [Segment-to-segment label mapping](https://github.com/OliverDaubney/s2slabmap) by Oliver Daubney
 
 - Runner Up Models, December, 2023
@@ -180,6 +182,7 @@ For state-of-the-art contributions please join our [Discord channel](https://dis
 - [Crackle labels on Scroll 1](https://dl.ash2txt.org/community-uploads/bruniss/) by Sean Johnson
 
 #### 📝 Reports
+- [Introduction to Ink Detection](https://medium.com/@jaredlandau/vesuvius-challenge-ink-detection-part-1-introduction-1cb125a56b21) by Jared Landau
 
 - [Grand Prize Presentation](https://www.youtube.com/watch?v=F5ak1pRaqVo&ab_channel=VesuviusChallenge) by Youssef Nader and Julian Schilliger
 
