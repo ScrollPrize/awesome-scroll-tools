@@ -1,8 +1,10 @@
 # 📜 awesome scroll tools
 
-In this repository you are going to find all the awesome awarded open source contributions from our community that will allow us to read the scrolls! 📚✨
+Here are all the awesome awarded open source contributions from our community that will allow us to read the scrolls! 📚✨
 
-They are divided in three categories: _Segmentation_, _Ink Detection (3D, Scroll segment-based, Fragment-based)_, and _Others_.
+We maintain this list [on GitHub](https://github.com/ScrollPrize/awesome-scroll-tools) and it can also be found [on our website](https://scrollprize.org/community_projects).
+
+Contributions are divided in three categories: _Segmentation_, _Ink Detection (3D, Scroll segment-based, Fragment-based)_, and _Others_.
 
 Every category is subdivided in classes: 🌟 _Highlighted_ (for popular contributions), ⚙️ _Tools_, 📦 _Materials_, 📝 _Reports_, and 📊 _Visualization_.
 
@@ -10,7 +12,7 @@ Some highlighted contributions are added to this repository as submodules.
 
 We are trying to keep this repository updated as much as we can, but research moves _fast_! 🏃💨
 
-For state-of-the-art contributions please join our [Discord channel](https://discord.com/invite/V4fJhvtaQn) 💬⏰
+For state-of-the-art updates please join our [Discord channel](https://discord.com/invite/V4fJhvtaQn) 💬⏰
 
 ## Segmentation
 
