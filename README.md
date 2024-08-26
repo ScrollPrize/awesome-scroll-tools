@@ -4,7 +4,7 @@ Here are all the awesome awarded open source contributions from our community th
 
 We maintain this list [on GitHub](https://github.com/ScrollPrize/awesome-scroll-tools) and it can also be found [on our website](https://scrollprize.org/community_projects).
 
-Contributions are divided in three categories: _Segmentation_, _Ink Detection_, and _Other_.
+Contributions are divided into four categories: _Data access/visualization_, _Segmentation_, _Ink Detection_, and _Other_.
 
 Every category is subdivided in classes: 🌟 _Highlighted_ (for popular contributions), ⚙️ _Tools_, 📦 _Materials_, 📝 _Reports_, and 📊 _Visualization_.
 
@@ -13,6 +13,20 @@ Some highlighted contributions are added to this repository as submodules.
 We keep this repository updated as much as we can, but research moves _fast_! 🏃💨
 
 For state-of-the-art updates join our [Discord server](https://discord.com/invite/V4fJhvtaQn) 💬⏰
+
+## 📊 Data access/visualization
+
+### 🌟 Highlighted
+
+- [vesuvius](https://github.com/scrollprize/vesuvius): Python library for accessing Vesuvius Challenge data. Allows direct access to scroll data without managing download scripts or storing terabytes of CT scans locally.
+
+- [Segment browser](https://github.com/jrudolph/vesuvius-browser) is a web-based tool to browse layers and open source ink detection results of all released segments. By Johannes Rudolph
+
+### 🛠️ Tools
+
+- [vesuvius-c](https://github.com/ScrollPrize/vesuvius-c): C library for accessing Vesuvius Challenge data. Allows direct access to scroll data without managing download scripts or storing terabytes of CT scans locally.
+
+- [vesuvius-gui](https://github.com/jrudolph/vesuvius-gui) by Johannes Rudolph
 
 ## Segmentation
 
@@ -30,14 +44,13 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
     - [CPU rendering](https://github.com/schillij95/ThaumatoAnakalyptor/commit/bcd382a0ef59b2a8566ec62a474479ea9d1bb8c2) by Julian Schilliger and Giorgio Angelotti
 
-- [Volumetric Vesuvius Labelling](https://github.com/JamesDarby345/Volumetric_Vesuvius_Labelling) by James Darby. Provide custom tooling the Napari 3d viewer that will help manually annotate volumetric masks of the scrolls to train ML models for 3D segmentation.
+- [Volumetric Vesuvius Labelling](https://github.com/JamesDarby345/Volumetric_Vesuvius_Labelling) by James Darby. Provide custom tooling the [napari](https://napari.org/stable/) 3d viewer that will help manually annotate volumetric masks of the scrolls to train ML models for 3D segmentation.
 
-- [Autosegmentation preprocessing pipeline](https://github.com/giorgioangel/vesuvius_autoseg_preprocess) (work in progress) collection of scripts to preprocess volumes for autosegmentation. By Giorgio Angelotti
+- [Autosegmentation preprocessing pipeline](https://github.com/giorgioangel/vesuvius_autoseg_preprocess) (work in progress) collection of scripts to pre-process volumes for autosegmentation. By Giorgio Angelotti
 
-- [Segment2Voxel](https://github.com/giorgioangel/vesuvius-segment2voxel) by Giorgio Angelotti. Tool to create 1-voxel thick volumetric segment labels starting from mesh objs.
+- [Segment2Voxel](https://github.com/giorgioangel/vesuvius-segment2voxel) by Giorgio Angelotti. Tool to create 1-voxel thick volumetric segment labels starting from mesh .obj files.
 
-- [Hraun](https://github.com/SuperOptimizer/Hraun) is a collection of python tools for handling volumetric scroll data by Forrest McDonald
-    - 3D segmentation prototype by Forrest McDonald
+- [Hraun](https://github.com/SuperOptimizer/Hraun) is a collection of python tools for handling volumetric scroll data by Forrest McDonald.
 
 - [Scroll compression and masking](https://github.com/OliverDaubney/vesuvius_basic_compression) by Olivier Daubney. Script to compress and mask scroll data, greatly reducing storage requirements!
 
@@ -61,7 +74,7 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [vesuvius-build](https://github.com/spelufo/vesuvius-build/tree/main) by Santiago Pelufo. Scripts to build files for progressive loading of the data. Convert the tif stack to grid cells or to h5 format that can be used by Ilastik.
 
-- [Volume Annotate](https://github.com/MosheLevy20/VolumeAnnotate) A reimplementation of Volume Cartographer in Python by Moshe Levy. Missing all the recent improvements.
+- [Volume Annotate](https://github.com/MosheLevy20/VolumeAnnotate) A partial reimplementation of Volume Cartographer in Python by Moshe Levy.
 
     - [VA-Sheet Tracer](https://github.com/teeohem96/VA-Sheet-Tracer) by Trevor, Tom, Babak and Boaz
 
@@ -103,8 +116,6 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 - [Probabilistic view on the offset for surface volume creation](https://discord.com/channels/1079907749569237093/1177617480366170162) by Giorgio Angelotti
 
 ### 📊 Visualization
-
-- [vesuvius-gui](https://github.com/jrudolph/vesuvius-gui) by Johannes Rudolph
 
 - [Browser-based scroll viewer](https://discord.com/channels/1079907749569237093/1246129199304151052/1246129199304151052) by Yao Hsiao
 
@@ -202,8 +213,6 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 #### 📊 Visualization
 
 - [Segment viewer](https://github.com/tomhsiao1260/segment-viewer). Used by the segmentation team primarily to see which segments they have worked on already. Hosted [here](http://37.19.207.113:5173/?mode=segment&segment=20230702185753) By Yao Hsiao and Dalufishe
-
-- [Segment browser](https://github.com/jrudolph/vesuvius-browser) is a web-based tool to browse layers and open source ink detection results of all released segments. By Johannes Rudolph
 
 ### 📜 Fragment-based Ink Detection
 
