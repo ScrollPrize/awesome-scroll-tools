@@ -99,6 +99,8 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [Large segments](http://dl.ash2txt.org/bruniss-uploads/) by Sean Johnson
 
+- [Rescaled to 7.91um fragment surfaces and labels](https://dl.ash2txt.org/community-uploads/jrudolph/rescaled-fragments/) by Johannes Rudolph
+
 #### 🏷️ Volumetric Labels
 
 - [Instance segmentation labels](https://github.com/JamesDarby345/Vesuvius_3D_datasets) by James Darby
