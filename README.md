@@ -82,6 +82,8 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [Quick Segment](https://github.com/educelab/quick-segment) Created by EduceLab for annotating a large air gap in Scroll 1, and then projecting from that gap to either side to create two large segments, colloquially referred to as the “Monster Segment”. Hasn’t been used for more segmentation, since it was the only large air gap we could find.
 
+- [scrollreading](https://github.com/WillStevens/scrollreading) by Will Stevens. Experiments with using algorithms based on flood-fill to extract non-intersecting surfaces from scrolls.
+
 ### 📦 Materials
 
 #### 🌟 Highlighted
