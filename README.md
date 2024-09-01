@@ -50,6 +50,8 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [Segment2Voxel](https://github.com/giorgioangel/vesuvius-segment2voxel) by Giorgio Angelotti. Tool to create 1-voxel thick volumetric segment labels starting from mesh .obj files.
 
+- [Volumetric Instance Labels to obj]([https://github.com/ScrollPrize/awesome-scroll-tools](https://github.com/JamesDarby345/Volumetric_Instance_to_Mesh/tree/main)) by James darby. Tools to create .obj mesh files from volumetric instance labels.
+
 - [Hraun](https://github.com/SuperOptimizer/Hraun) is a collection of python tools for handling volumetric scroll data by Forrest McDonald.
 
 - [Scroll compression and masking](https://github.com/OliverDaubney/vesuvius_basic_compression) by Olivier Daubney. Script to compress and mask scroll data, greatly reducing storage requirements!
