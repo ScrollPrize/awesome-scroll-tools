@@ -15,6 +15,7 @@ We keep this repository updated as much as we can, but research moves _fast_! �
 For state-of-the-art updates join our [Discord server](https://discord.com/invite/V4fJhvtaQn) 💬⏰
 
 ## 📊 Data access/visualization
+
 ### 🌟 Highlighted
 
 - [vesuvius](https://github.com/scrollprize/vesuvius): Python library for accessing Vesuvius Challenge data. Allows direct access to scroll data without managing download scripts or storing terabytes of CT scans locally.
