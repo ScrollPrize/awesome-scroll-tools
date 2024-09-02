@@ -15,7 +15,6 @@ We keep this repository updated as much as we can, but research moves _fast_! �
 For state-of-the-art updates join our [Discord server](https://discord.com/invite/V4fJhvtaQn) 💬⏰
 
 ## 📊 Data access/visualization
-fames
 ### 🌟 Highlighted
 
 - [vesuvius](https://github.com/scrollprize/vesuvius): Python library for accessing Vesuvius Challenge data. Allows direct access to scroll data without managing download scripts or storing terabytes of CT scans locally.
@@ -44,7 +43,7 @@ fames
 
     - [CPU rendering](https://github.com/schillij95/ThaumatoAnakalyptor/commit/bcd382a0ef59b2a8566ec62a474479ea9d1bb8c2) by Julian Schilliger and Giorgio Angelotti
 
-- [Volumetric Vesuvius Labelling](https://github.com/Darby345/Volumetric_Vesuvius_Labelling) by James Darby. Provide custom tooling the [napari](https://napari.org/stable/) 3d viewer that will help manually annotate volumetric masks of the scrolls to train ML models for 3D segmentation.
+- [Volumetric Vesuvius Labelling](https://github.com/JamesDarby345/Volumetric_Vesuvius_Labelling) by James Darby. Provide custom tooling the [napari](https://napari.org/stable/) 3d viewer that will help manually annotate volumetric masks of the scrolls to train ML models for 3D segmentation.
 
 - [Autosegmentation preprocessing pipeline](https://github.com/giorgioangel/vesuvius_autoseg_preprocess) (work in progress) collection of scripts to pre-process volumes for autosegmentation. By Giorgio Angelotti
 
