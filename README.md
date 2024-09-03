@@ -240,6 +240,8 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [Ink ID](https://github.com/educelab/ink-id) by Stephen Parsons
 
+- [Iterative Labeling on fragments](https://discord.com/channels/1079907749569237093/1279263442913591349/1279263442913591349) by Youssef Nader. Applying the iterative labeling approach of the GP winning team to improve ink detection on fragments hidden layers.
+
 #### 📝 Reports
 
 - [Kaggle Challenge top ink detection model analysis](https://github.com/ainatersol/Vesuvius-InkDetection/blob/main/additional_findings.md) by Ryan Chesler
