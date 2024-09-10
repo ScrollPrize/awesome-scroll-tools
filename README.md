@@ -156,6 +156,8 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [Volumetric ink detection attempt](https://discord.com/channels/1079907749569237093/1204133327083147264) by Jorge Villaescusa
 
+- [Inkalyzer](https://github.com/younader/Inkalyzer) by Youssef Nader. XAI package for Ink models to explain predictions and generate volumetric labels.
+
 #### 📦 Materials
 
 - [3D Ink labels](https://discord.com/channels/1079907749569237093/1079907750265499772/1223357870762889308) by Sean Johnsonn
