@@ -145,6 +145,8 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [Scroll Viewer](https://github.com/lukeboi/scroll-viewer) by Luke Farritor. A lightweight, extensible tool for viewing volumetric data, which runs in the browser, and is very fast.
 
+- [Scroll Sleuth](https://github.com/Paul-G2/ScrollSleuth) by Paul Geiger. A web app that supports visual ink-searching in segment volumes via multiple display modes and segmentation tools.
+
 ## Ink Detection
 
 ### 🏆 3D Ink Detection
