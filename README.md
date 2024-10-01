@@ -86,6 +86,11 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [scrollreading](https://github.com/WillStevens/scrollreading) by Will Stevens. Experiments with using algorithms based on flood-fill to extract non-intersecting surfaces from scrolls.
 
+- [VC with OME-Zarr & more](https://github.com/hendrikschilling/volume-cartographer) by Hendrik Schilling:
+    - fast interactive OME-Zarr access and live slicing & flattening [thread](https://discord.com/channels/1079907749569237093/1286341523570688121)
+    - instant flattening from VC segments without meshing (10s for one slice) [thread](https://discord.com/channels/1079907749569237093/1289946915269509251)
+    - segment surface refinement [thread](https://discord.com/channels/1079907749569237093/1290364437836075231)
+
 ### 📦 Materials
 
 #### 🌟 Highlighted
