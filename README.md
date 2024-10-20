@@ -217,6 +217,9 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [Crackle labels on Scroll 1](https://dl.ash2txt.org/community-uploads/bruniss/) by Sean Johnson
 
+- [Ink Generator]
+(https://github.com/StewartSethA/VesuviusInkGenerator) by Seth Stewart, ink volume sample patches generated using gradient ascent
+
 #### 📝 Reports
 
 - [Introduction to Ink Detection](https://medium.com/@jaredlandau/vesuvius-challenge-ink-detection-part-1-introduction-1cb125a56b21) by Jared Landau
