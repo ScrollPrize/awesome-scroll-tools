@@ -266,6 +266,8 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 ### ⚙️ Tools
 
+- [Umbilicus point files + Umbilicus Maker](https://github.com/JamesDarby345/Umbilicus_Maker) Umbilicus files for most of the available scans + tool to create umbilicus points from a zarr. by James Darby.
+
 - [Efficient Data Downloader](https://github.com/JamesDarby345/VesuviusDataDownload): scripts to efficiently download data with rclone, by James Darby
 
 - [Improving scroll alignment with image registration](https://github.com/Paul-G2/VesuviusScrollAlignment) Scripts and a report showing how image registration can improve the alignment of scroll volumes scanned at different energies and resolutions, by Paul Geiger
