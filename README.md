@@ -26,7 +26,7 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [vesuvius-c](https://github.com/ScrollPrize/vesuvius-c): C library for accessing Vesuvius Challenge data. Allows direct access to scroll data without managing download scripts or storing terabytes of CT scans locally.
 
-- [vesuvius-gui](https://github.com/jrudolph/vesuvius-gui) by Johannes Rudolph
+- [vesuvius-gui](https://github.com/jrudolph/vesuvius-gui) is a single binary GUI to render volumes and segments on-the-fly. By Johannes Rudolph
 
 ## Segmentation
 
@@ -147,6 +147,8 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [Scroll Viewer](https://github.com/lukeboi/scroll-viewer) by Luke Farritor. A lightweight, extensible tool for viewing volumetric data, which runs in the browser, and is very fast.
 
+- [Scroll Sleuth](https://github.com/Paul-G2/ScrollSleuth) by Paul Geiger. A web app that supports visual ink-searching in segment volumes via multiple display modes and segmentation tools.
+
 ## Ink Detection
 
 ### 🏆 3D Ink Detection
@@ -216,6 +218,9 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 - [Ink detection masks](https://discord.com/channels/1079907749569237093/1177039383375912990/1177039383375912990). Anton Repushko shared some ink labels for Scroll 1, these labels were used by many participants for their final submission in December 2023.
 
 - [Crackle labels on Scroll 1](https://dl.ash2txt.org/community-uploads/bruniss/) by Sean Johnson
+
+- [Ink Generator]
+(https://github.com/StewartSethA/VesuviusInkGenerator) by Seth Stewart, ink volume sample patches generated using gradient ascent
 
 #### 📝 Reports
 
