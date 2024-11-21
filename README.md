@@ -1,3 +1,5 @@
+> **_NOTE:_** Now maintained at https://github.com/ScrollPrize/villa/blob/main/scrollprize.org/docs/20_community_projects.md (this repository archived)
+
 # 📜 Awesome Scroll Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Here are all the awesome awarded open source contributions from our community that will allow us to read the scrolls! 📚✨
