@@ -54,7 +54,7 @@ For state-of-the-art updates join our [Discord server](https://discord.com/invit
 
 - [Volumetric Instance Labels to obj](https://github.com/JamesDarby345/Volumetric_Instance_to_Mesh/tree/main) by James darby. Tools to create .obj mesh files from volumetric instance labels.
 
-- [Hraun](https://github.com/SuperOptimizer/Hraun) is a collection of python tools for handling volumetric scroll data by Forrest McDonald.
+- [Hraun](https://github.com/SuperOptimizer/Hraun) and [Volcano](https://github.com/SuperOptimizer/volcano) are two collections of python and C tools for handling volumetric scroll data by Forrest McDonald.
 
 - [Scroll compression and masking](https://github.com/OliverDaubney/vesuvius_basic_compression) by Olivier Daubney. Script to compress and mask scroll data, greatly reducing storage requirements!
 
